@@ -4,21 +4,22 @@ public class No {
     private No proximo;
 
     public No() {
-        this.tamanho = tamanho;
-        this.colisoes = 0;
-        this.tabelaHash = new tabelaHash[tamanho];
+        this.id = id;
+        this.valor = valor;
+        this.proximo = null;
     }
     public No(int id, int valor) {
         this.id = id;
         this.valor = valor;
     }
-    public void setProximo(No proximo){
-        this.proximo = proximo;
+    public No setProximo(No proximo){
+        return this.proximo = proximo;
     }
-    public void getProximo(No atual){
-        return atual.proximo;
+    public No getProximo(){
+        return proximo;
     }
-    public void getValor(){
+    public int getId(){return this.id;}
+    public int getValor(){
         return this.valor;
     }
 }
