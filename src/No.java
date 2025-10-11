@@ -1,15 +1,8 @@
 public class No {
-    private int id;
     private int valor;
     private No proximo;
 
-    public No() {
-        this.id = id;
-        this.valor = valor;
-        this.proximo = null;
-    }
-    public No(int id, int valor) {
-        this.id = id;
+    public No(int valor) {
         this.valor = valor;
     }
     public No setProximo(No proximo){
@@ -18,8 +11,11 @@ public class No {
     public No getProximo(){
         return proximo;
     }
-    public int getId(){return this.id;}
     public int getValor(){
         return this.valor;
+    }
+
+    public String toString() {
+        return "" + this.valor + "";
     }
 }
