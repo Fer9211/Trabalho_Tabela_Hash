@@ -57,15 +57,21 @@ public class Encadeamento {
         return (int) (tamanho * parteFracionaria);
     }
 
+    public void realizar_buscas(){
+        
+    }
+
 
     public static void main(String[] args) {
-        int[] valores = {128945376, 903176452, 572684913, 416839725, 739520186, 285617439, 654392871, 871236549, 398761254, 520948367};
 
-        TabelaHash tabela_10 = new TabelaHash(9);
+        VetorValores vetorValores100 = new VetorValores(100);
+        int[] valores_100 = vetorValores100.getVetor();
+
+        TabelaHash tabela_10 = new TabelaHash(100);
         Encadeamento encadeamento = new Encadeamento();
 
         for(int i = 0; i < 9; i++){  // usa 0 até 8 para não estourar o array
-            encadeamento.adicionar_valor_tabela(valores[i], tabela_10);
+            encadeamento.adicionar_valor_tabela(valores_100[i], tabela_10);
         }
 
         tabela_10.imprimir_tabela_hash();
