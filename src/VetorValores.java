@@ -19,4 +19,8 @@ public class VetorValores {
     public int[] getVetor(){
         return valores;
     }
+
+    public int getTamanho(){
+        return tamanho;
+    }
 }

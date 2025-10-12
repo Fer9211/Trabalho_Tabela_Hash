@@ -57,8 +57,15 @@ public class Encadeamento {
         return (int) (tamanho * parteFracionaria);
     }
 
-    public void realizar_buscas(){
-        
+    public void realizar_buscas(VetorValores vetor_busca, TabelaHash tabela) {
+        for (int i = 0; i < vetor_busca.getTamanho(); i++) {
+            No[] chave = tabela.getChave();
+            boolean encontrado = false;
+
+            while (encontrado != true){
+                
+            }
+        }
     }
 
 
