@@ -10,7 +10,7 @@ public class VetorValores {
 
         int min = 100000000;
         int max = 999999999;
-        Random rand = new Random();
+        Random rand = new Random(987654321); // seed fixa
 
         for(int i = 0; i < tamanho; i++){
             valores[i] = rand.nextInt(max - min + 1) + min;
@@ -18,5 +18,9 @@ public class VetorValores {
     }
     public int[] getVetor(){
         return valores;
+    }
+
+    public int getTamanho(){
+        return tamanho;
     }
 }
