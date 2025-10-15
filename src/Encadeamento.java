@@ -75,18 +75,17 @@ public class Encadeamento {
             No atual = chave[indice];
             boolean encontrado = false;
 
-            while (atual != null) {
+            while (atual != null && encontrado == false) {
                 if (atual.getValor() == codigo) {
                     // valor encontrado
-                    // System.out.println("Valor encontrado: " + atual.getValor());
+                    System.out.println("Valor encontrado: " + atual.getValor());
                     encontrado = true;
-                    break; // <-- IMPORTANTE! Sai do while quando achar o valor
                 }
                 atual = atual.getProximo();
             }
 
             if (!encontrado) {
-                // System.out.println("Valor " + codigo + " não encontrado.");
+                System.out.println("Valor " + codigo + " não encontrado.");
             }
         }
     }
