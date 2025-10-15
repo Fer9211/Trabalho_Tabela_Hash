@@ -1,9 +1,9 @@
-public class TabelaHash {
+public class Registro {
     private No[] chave;
     private No[] registro;
     private int tamanho;
 
-    public TabelaHash(int tamanho) {
+    public Registro(int tamanho) {
         this.tamanho = tamanho;
         this.chave = new No[tamanho];
         this.registro = new No[tamanho];
@@ -65,7 +65,7 @@ public class TabelaHash {
         this.registro = registro;
     }
 
-    public int[] contar_gap_e_maior_encadeamento(TabelaHash tabela) {
+    public int[] contar_gap_e_maior_encadeamento(Registro tabela) {
         int tamanho = tabela.getTamanho();
         No[] vetor = tabela.getChave();
 

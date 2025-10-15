@@ -10,7 +10,7 @@ public class Encadeamento {
         this.colisoes = 0;
     }
 
-    public void adicionar_valor_tabela(int valor, TabelaHash tabela) {
+    public void adicionar_valor_tabela(int valor, Registro tabela) {
         int bucket = conta_funcao_hash(valor, tabela.getTamanho());
         No novo_valor = new No(valor);
 
@@ -62,7 +62,7 @@ public class Encadeamento {
         return (int) (tamanho * parteFracionaria);
     }
 
-    public void realizar_buscas(VetorValores vetor_busca, TabelaHash tabela) {
+    public void realizar_buscas(VetorValores vetor_busca, Registro tabela) {
         No[] chave = tabela.getChave();
         int tamanhoBusca = vetor_busca.getTamanho();
         int tamanhoTabela = tabela.getTamanho();
@@ -92,7 +92,7 @@ public class Encadeamento {
     }
 
 
-    public long medir_tempo_insercao(VetorValores valores, TabelaHash tabela) {
+    public long medir_tempo_insercao(VetorValores valores, Registro tabela) {
         this.colisoes = 0;
 
         int[] vetor =  valores.getVetor();
@@ -111,7 +111,7 @@ public class Encadeamento {
 
         return duracaoNs;
     }
-    public long medir_tempo_busca(VetorValores valores, TabelaHash tabela){
+    public long medir_tempo_busca(VetorValores valores, Registro tabela){
         long inicio = System.nanoTime();
         realizar_buscas(valores, tabela);
         long fim = System.nanoTime();
@@ -143,7 +143,7 @@ public class Encadeamento {
 
                     // Criar vetor de valores e tabela hash
                     VetorValores vetorValores = new VetorValores(tamanhoConjunto);
-                    TabelaHash tabela = new TabelaHash(tamanhoTabela);
+                    Registro tabela = new Registro(tamanhoTabela);
                     Encadeamento encadeamento = new Encadeamento();
 
                     // Medir tempo de inserção
