@@ -88,8 +88,11 @@ javac *.java
 ```
 3. Execute as classes.
 
+```bash
+java Main
 
----
+```
+
 
 
 
