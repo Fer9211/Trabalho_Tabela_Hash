@@ -6,7 +6,7 @@
 - Emily Fontana
 - Fernanda Moraes
 
-## ⚠️⚠️ Intruções para o código!!
+## ⚠️⚠️ Instruções para o código!!
 ** Estruturas permitidas:**
 - Vetores (`int[]`, `float[]`, `boolean[]`)
 - Estruturas de nó (para listas encadeadas)
