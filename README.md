@@ -7,7 +7,7 @@
 - Fernanda Moraes
 
 ## ⚠️⚠️ Instruções para o código!!
-** Estruturas permitidas:**
+**Estruturas permitidas:**
 - Vetores (`int[]`, `float[]`, `boolean[]`)
 - Estruturas de nó (para listas encadeadas)
 - Tipos primitivos (`int`, `float`, `boolean`)
@@ -15,7 +15,7 @@
 - Matrizes (`[][]`) — **não é permitido usar funções prontas de manipulação**
 - `Random` com seed
 
-** Bibliotecas permitidas: **
+**Bibliotecas permitidas:**
 - Leitura de dados (`Scanner`, `BufferedReader`)
 - Escrita de dados (`PrintWriter`, `FileWriter`)
 - Medição de tempo (ms, µs ou ns)
