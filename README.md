@@ -1,6 +1,7 @@
 
 # 📂 Projeto de Tabelas Hash: PJBL
 
+4° U Noite
 - Eduardo Rodrigues
 - Emily Fontana
 - Fernanda Moraes
@@ -87,10 +88,6 @@ javac *.java
 ```
 3. Execute as classes.
 
-   ```bash
-java Main
-
-```
 
 ---
 
