@@ -19,7 +19,6 @@ public class TabelaHash {
                 No atual = registro[i];
                 System.out.print("Chave = " + chave[i].getValor() + " | Registro = ");
 
-                // Percorre a lista encadeada neste bucket
                 while (atual != null) {
                     System.out.print(atual.getValor());
                     atual = atual.getProximo();
@@ -27,41 +26,35 @@ public class TabelaHash {
                         System.out.print(" -> ");
                     }
                 }
-                System.out.println(); // pula linha após cada bucket
+                System.out.println();
             }
         }
     }
 
-    //Verifica se o local da insersão está vazio
-    public boolean verificar_se_vazio(int bucket){
-        if(chave[bucket] == null){
+    public boolean verificar_se_vazio(int bucket) {
+        if (chave[bucket] == null) {
             return true;
         }
         return false;
     }
 
-    //Retorna o tamanho da tabela hash
-    public int getTamanho(){
+    public int getTamanho() {
         return tamanho;
     }
 
-    //retorna o array registro
-    public No[] getRegistro(){
+    public No[] getRegistro() {
         return registro;
     }
 
-    //Retorna o array chave
-    public No[] getChave(){
+    public No[] getChave() {
         return chave;
     }
 
-    //Atualiza o array chave por inteiro
-    public void setChave(No[] chave){
+    public void setChave(No[] chave) {
         this.chave = chave;
     }
 
-    //Atualiza o array registro por inteiro
-    public void setRegistro(No[] registro){
+    public void setRegistro(No[] registro) {
         this.registro = registro;
     }
 
@@ -72,11 +65,10 @@ public class TabelaHash {
         int numero_total_gaps = 0;
         int[] tres_maiores_gaps = new int[3];
         int[] tres_maiores_encadeamentos = new int[3];
-        
-        // Novas variáveis para atender os requisitos
-        int menor_gap = Integer.MAX_VALUE;  // Começa com valor muito grande
+
+        int menor_gap = Integer.MAX_VALUE;
         int maior_gap = 0;
-        int soma_gaps = 0;  // Para calcular a média
+        int soma_gaps = 0;
 
         int ultimo_ocupado = -1;
 
@@ -86,19 +78,16 @@ public class TabelaHash {
                     int gap = i - ultimo_ocupado - 1;
                     if (gap > 0) {
                         numero_total_gaps++;
-                        soma_gaps += gap;  // Acumula para a média
-                        
-                        // Atualiza menor gap
+                        soma_gaps += gap;
+
                         if (gap < menor_gap) {
                             menor_gap = gap;
                         }
-                        
-                        // Atualiza maior gap
+
                         if (gap > maior_gap) {
                             maior_gap = gap;
                         }
 
-                        // Atualiza os 3 maiores gaps
                         if (gap > tres_maiores_gaps[0]) {
                             tres_maiores_gaps[2] = tres_maiores_gaps[1];
                             tres_maiores_gaps[1] = tres_maiores_gaps[0];
@@ -138,11 +127,8 @@ public class TabelaHash {
             }
         }
 
-
-        // Calcula média de gap
         double media_gap = (numero_total_gaps > 0) ? (double) soma_gaps / numero_total_gaps : 0;
-        
-        // Se não houver gaps, ajusta menor_gap para 0
+
         if (menor_gap == Integer.MAX_VALUE) {
             menor_gap = 0;
         }
@@ -153,15 +139,14 @@ public class TabelaHash {
         System.out.printf("Média de gap: %.2f%n", media_gap);
         System.out.println("Três maiores gaps: " + tres_maiores_gaps[0] + ", " + tres_maiores_gaps[1] + ", " + tres_maiores_gaps[2]);
         System.out.println("Três maiores encadeamentos: " + tres_maiores_encadeamentos[0] + ", " + tres_maiores_encadeamentos[1] + ", " + tres_maiores_encadeamentos[2]);
-        
-        return new int[] {
+
+        return new int[]{
                 numero_total_gaps,
                 menor_gap,
                 maior_gap,
-                (int) media_gap,  // Converte para int no array
+                (int) media_gap,
                 tres_maiores_gaps[0], tres_maiores_gaps[1], tres_maiores_gaps[2],
                 tres_maiores_encadeamentos[0], tres_maiores_encadeamentos[1], tres_maiores_encadeamentos[2]
         };
     }
-
 }
