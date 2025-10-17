@@ -1,0 +1,119 @@
+===== COMPARAÇÃO DE FUNÇÕES HASH =====
+
+Tamanho Tabela: 1000 | Conjunto: 100000
+--- Fibonacci Hash (Golden Ratio) ---
+  Inserção: 37,430 ms | Colisões: 99000
+  Busca: 75,960 ms
+  Gaps: 0 | Maior encadeamento: 130
+
+--- Soma de Partes (3 dígitos) ---
+  Inserção: 225,135 ms | Colisões: 99000
+  Busca: 374,865 ms
+  Gaps: 0 | Maior encadeamento: 126
+
+================================================================
+
+Tamanho Tabela: 1000 | Conjunto: 1000000
+--- Fibonacci Hash (Golden Ratio) ---
+  Inserção: 16737,996 ms | Colisões: 999000
+  Busca: 46125,251 ms
+  Gaps: 0 | Maior encadeamento: 1095
+
+--- Soma de Partes (3 dígitos) ---
+  Inserção: 12521,748 ms | Colisões: 999000
+  Busca: 10651,736 ms
+  Gaps: 0 | Maior encadeamento: 1089
+
+================================================================
+
+Tamanho Tabela: 1000 | Conjunto: 10000000
+--- Fibonacci Hash (Golden Ratio) ---
+  Inserção: 1183379,265 ms | Colisões: 9999000
+  Busca: 441891,294 ms
+  Gaps: 0 | Maior encadeamento: 10270
+
+--- Soma de Partes (3 dígitos) ---
+  Inserção: 1158183,293 ms | Colisões: 9999000
+  Busca: 3402103,178 ms
+  Gaps: 0 | Maior encadeamento: 10300
+
+================================================================
+
+Tamanho Tabela: 10000 | Conjunto: 100000
+--- Fibonacci Hash (Golden Ratio) ---
+  Inserção: 13,596 ms | Colisões: 90002
+  Busca: 10,161 ms
+  Gaps: 2 | Maior encadeamento: 22
+
+--- Soma de Partes (3 dígitos) ---
+  Inserção: 63,421 ms | Colisões: 97344
+  Busca: 186,264 ms
+  Gaps: 69 | Maior encadeamento: 99
+
+================================================================
+
+Tamanho Tabela: 10000 | Conjunto: 1000000
+--- Fibonacci Hash (Golden Ratio) ---
+  Inserção: 2136,765 ms | Colisões: 990000
+  Busca: 4704,026 ms
+  Gaps: 0 | Maior encadeamento: 138
+
+--- Soma de Partes (3 dígitos) ---
+  Inserção: 10264,556 ms | Colisões: 997178
+  Busca: 8057,890 ms
+  Gaps: 23 | Maior encadeamento: 838
+
+================================================================
+
+Tamanho Tabela: 10000 | Conjunto: 10000000
+--- Fibonacci Hash (Golden Ratio) ---
+  Inserção: 225527,686 ms | Colisões: 9990000
+  Busca: 143087,852 ms
+  Gaps: 0 | Maior encadeamento: 1124
+
+--- Soma de Partes (3 dígitos) ---
+  Inserção: 485539,333 ms | Colisões: 9997121
+  Busca: 1352321,115 ms
+  Gaps: 5 | Maior encadeamento: 7932
+
+================================================================
+
+Tamanho Tabela: 100000 | Conjunto: 100000
+--- Fibonacci Hash (Golden Ratio) ---
+  Inserção: 2,761 ms | Colisões: 36876
+  Busca: 1,817 ms
+  Gaps: 23322 | Maior encadeamento: 7
+
+--- Soma de Partes (3 dígitos) ---
+  Inserção: 58,447 ms | Colisões: 97344
+  Busca: 90,875 ms
+  Gaps: 69 | Maior encadeamento: 99
+
+================================================================
+
+Tamanho Tabela: 100000 | Conjunto: 1000000
+--- Fibonacci Hash (Golden Ratio) ---
+  Inserção: 267,623 ms | Colisões: 900005
+  Busca: 89,013 ms
+  Gaps: 5 | Maior encadeamento: 25
+
+--- Soma de Partes (3 dígitos) ---
+  Inserção: 8062,393 ms | Colisões: 997178
+  Busca: 4916,065 ms
+  Gaps: 23 | Maior encadeamento: 838
+
+================================================================
+
+Tamanho Tabela: 100000 | Conjunto: 10000000
+--- Fibonacci Hash (Golden Ratio) ---
+  Inserção: 13561,761 ms | Colisões: 9900000
+  Busca: 20448,027 ms
+  Gaps: 0 | Maior encadeamento: 146
+
+--- Soma de Partes (3 dígitos) ---
+  Inserção: 556394,334 ms | Colisões: 9997121
+  Busca: 1434575,791 ms
+  Gaps: 5 | Maior encadeamento: 7932
+
+================================================================
+

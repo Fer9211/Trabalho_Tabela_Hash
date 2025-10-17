@@ -1,0 +1,153 @@
+===== COMPARAÇÃO COMPLETA - 3 MÉTODOS DE HASH =====
+
+Métodos testados:
+  1. Fibonacci Hash (encadeamento)
+  2. Soma de Partes (encadeamento)
+  3. Rehashing Quadrático
+
+=======================================================
+
+Tamanho Tabela: 1000 | Conjunto: 100000
+--- Fibonacci Hash (encadeamento) ---
+  Inserção: 22,362 ms | Colisões: 99000
+  Busca: 57,633 ms
+
+--- Soma de Partes (encadeamento) ---
+  Inserção: 64,598 ms | Colisões: 99000
+  Busca: 162,394 ms
+
+--- Rehashing Quadrático ---
+  Inserção: 159,901 ms | Colisões: 99005059
+  Busca: 156,494 ms
+  Elementos inseridos: 1000 de 100000
+
+================================================================
+
+Tamanho Tabela: 1000 | Conjunto: 1000000
+--- Fibonacci Hash (encadeamento) ---
+  Inserção: 12382,828 ms | Colisões: 999000
+  Busca: 34869,154 ms
+
+--- Soma de Partes (encadeamento) ---
+  Inserção: 16221,457 ms | Colisões: 999000
+  Busca: 5600,003 ms
+
+--- Rehashing Quadrático ---
+  Inserção: 1489,113 ms | Colisões: 999005059
+  Busca: 1455,268 ms
+  Elementos inseridos: 1000 de 1000000
+
+================================================================
+
+Tamanho Tabela: 1000 | Conjunto: 10000000
+--- Fibonacci Hash (encadeamento) ---
+  Inserção: 1434399,134 ms | Colisões: 9999000
+  Busca: 731616,699 ms
+
+--- Soma de Partes (encadeamento) ---
+  Inserção: 502870,548 ms | Colisões: 9999000
+  Busca: 1257272,532 ms
+
+--- Rehashing Quadrático ---
+  Inserção: 14935,874 ms | Colisões: 9999005059
+  Busca: 14790,391 ms
+  Elementos inseridos: 1000 de 10000000
+
+================================================================
+
+Tamanho Tabela: 10000 | Conjunto: 100000
+--- Fibonacci Hash (encadeamento) ---
+  Inserção: 4,159 ms | Colisões: 90002
+  Busca: 4,822 ms
+
+--- Soma de Partes (encadeamento) ---
+  Inserção: 34,605 ms | Colisões: 97344
+  Busca: 74,210 ms
+
+--- Rehashing Quadrático ---
+  Inserção: 1308,077 ms | Colisões: 900068652
+  Busca: 1308,217 ms
+  Elementos inseridos: 10000 de 100000
+
+================================================================
+
+Tamanho Tabela: 10000 | Conjunto: 1000000
+--- Fibonacci Hash (encadeamento) ---
+  Inserção: 1306,804 ms | Colisões: 990000
+  Busca: 3410,005 ms
+
+--- Soma de Partes (encadeamento) ---
+  Inserção: 6203,364 ms | Colisões: 997178
+  Busca: 3034,536 ms
+
+--- Rehashing Quadrático ---
+  Inserção: 14496,830 ms | Colisões: 9900068652
+  Busca: 14327,482 ms
+  Elementos inseridos: 10000 de 1000000
+
+================================================================
+
+Tamanho Tabela: 10000 | Conjunto: 10000000
+--- Fibonacci Hash (encadeamento) ---
+  Inserção: 105003,307 ms | Colisões: 9990000
+  Busca: 37157,387 ms
+
+--- Soma de Partes (encadeamento) ---
+  Inserção: 561258,178 ms | Colisões: 9997121
+  Busca: 1526036,042 ms
+
+--- Rehashing Quadrático ---
+  Inserção: 163567,939 ms | Colisões: 99900068652
+  Busca: 157000,596 ms
+  Elementos inseridos: 10000 de 10000000
+
+================================================================
+
+Tamanho Tabela: 100000 | Conjunto: 100000
+--- Fibonacci Hash (encadeamento) ---
+  Inserção: 2,125 ms | Colisões: 36876
+  Busca: 1,367 ms
+
+--- Soma de Partes (encadeamento) ---
+  Inserção: 57,419 ms | Colisões: 97344
+  Busca: 83,447 ms
+
+--- Rehashing Quadrático ---
+  Inserção: 4,701 ms | Colisões: 1544104
+  Busca: 3,890 ms
+  Elementos inseridos: 99997 de 100000
+
+================================================================
+
+Tamanho Tabela: 100000 | Conjunto: 1000000
+--- Fibonacci Hash (encadeamento) ---
+  Inserção: 159,506 ms | Colisões: 900005
+  Busca: 157,360 ms
+
+--- Soma de Partes (encadeamento) ---
+  Inserção: 8818,248 ms | Colisões: 997178
+  Busca: 5362,972 ms
+
+--- Rehashing Quadrático ---
+  Inserção: 147539,778 ms | Colisões: 90001346913
+  Busca: 143913,212 ms
+  Elementos inseridos: 100000 de 1000000
+
+================================================================
+
+Tamanho Tabela: 100000 | Conjunto: 10000000
+--- Fibonacci Hash (encadeamento) ---
+  Inserção: 11995,116 ms | Colisões: 9900000
+  Busca: 12199,681 ms
+
+--- Soma de Partes (encadeamento) ---
+  Inserção: 426077,122 ms | Colisões: 9997121
+  Busca: 1110733,533 ms
+
+--- Rehashing Quadrático ---
+  Inserção: 1630834,383 ms | Colisões: 990001346913
+  Busca: 1673343,478 ms
+  Elementos inseridos: 100000 de 10000000
+
+================================================================
+

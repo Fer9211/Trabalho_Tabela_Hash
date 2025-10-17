@@ -1,0 +1,116 @@
+===== RESULTADOS - Fibonacci Hash (Golden Ratio) =====
+
+### Tamanho da tabela: 1000 ###
+
+Conjunto de dados: 100000
+Tempo total de inserção: 126,694 ms
+Número total de colisões: 99000
+Tempo total de busca: 320,998 ms
+Número total de gaps: 0
+Menor gap: 0
+Maior gap: 0
+Média de gap: 0
+Três maiores gaps: 0, 0, 0
+Três maiores encadeamentos: 130, 127, 127
+----------------------------------------
+
+Conjunto de dados: 1000000
+Tempo total de inserção: 9589,929 ms
+Número total de colisões: 999000
+Tempo total de busca: 7796,580 ms
+Número total de gaps: 0
+Menor gap: 0
+Maior gap: 0
+Média de gap: 0
+Três maiores gaps: 0, 0, 0
+Três maiores encadeamentos: 1095, 1092, 1091
+----------------------------------------
+
+Conjunto de dados: 10000000
+Tempo total de inserção: 737814,926 ms
+Número total de colisões: 9999000
+Tempo total de busca: 1158668,356 ms
+Número total de gaps: 0
+Menor gap: 0
+Maior gap: 0
+Média de gap: 0
+Três maiores gaps: 0, 0, 0
+Três maiores encadeamentos: 10270, 10261, 10253
+----------------------------------------
+
+### Tamanho da tabela: 10000 ###
+
+Conjunto de dados: 100000
+Tempo total de inserção: 17,727 ms
+Número total de colisões: 90002
+Tempo total de busca: 10,977 ms
+Número total de gaps: 2
+Menor gap: 1
+Maior gap: 1
+Média de gap: 1
+Três maiores gaps: 1, 1, 0
+Três maiores encadeamentos: 22, 22, 22
+----------------------------------------
+
+Conjunto de dados: 1000000
+Tempo total de inserção: 1819,786 ms
+Número total de colisões: 990000
+Tempo total de busca: 4712,399 ms
+Número total de gaps: 0
+Menor gap: 0
+Maior gap: 0
+Média de gap: 0
+Três maiores gaps: 0, 0, 0
+Três maiores encadeamentos: 138, 137, 135
+----------------------------------------
+
+Conjunto de dados: 10000000
+Tempo total de inserção: 72690,317 ms
+Número total de colisões: 9990000
+Tempo total de busca: 147113,755 ms
+Número total de gaps: 0
+Menor gap: 0
+Maior gap: 0
+Média de gap: 0
+Três maiores gaps: 0, 0, 0
+Três maiores encadeamentos: 1124, 1110, 1102
+----------------------------------------
+
+### Tamanho da tabela: 100000 ###
+
+Conjunto de dados: 100000
+Tempo total de inserção: 3,314 ms
+Número total de colisões: 36876
+Tempo total de busca: 1,708 ms
+Número total de gaps: 23322
+Menor gap: 1
+Maior gap: 12
+Média de gap: 1
+Três maiores gaps: 12, 11, 10
+Três maiores encadeamentos: 7, 7, 6
+----------------------------------------
+
+Conjunto de dados: 1000000
+Tempo total de inserção: 374,420 ms
+Número total de colisões: 900005
+Tempo total de busca: 331,830 ms
+Número total de gaps: 5
+Menor gap: 1
+Maior gap: 1
+Média de gap: 1
+Três maiores gaps: 1, 1, 1
+Três maiores encadeamentos: 25, 24, 24
+----------------------------------------
+
+Conjunto de dados: 10000000
+Tempo total de inserção: 14901,221 ms
+Número total de colisões: 9900000
+Tempo total de busca: 33747,111 ms
+Número total de gaps: 0
+Menor gap: 0
+Maior gap: 0
+Média de gap: 0
+Três maiores gaps: 0, 0, 0
+Três maiores encadeamentos: 146, 142, 142
+----------------------------------------
+

@@ -1,0 +1,116 @@
+===== RESULTADOS - Soma de Partes (3 dígitos) =====
+
+### Tamanho da tabela: 1000 ###
+
+Conjunto de dados: 100000
+Tempo total de inserção: 378,092 ms
+Número total de colisões: 99000
+Tempo total de busca: 455,134 ms
+Número total de gaps: 0
+Menor gap: 0
+Maior gap: 0
+Média de gap: 0
+Três maiores gaps: 0, 0, 0
+Três maiores encadeamentos: 126, 125, 125
+----------------------------------------
+
+Conjunto de dados: 1000000
+Tempo total de inserção: 13449,316 ms
+Número total de colisões: 999000
+Tempo total de busca: 11415,835 ms
+Número total de gaps: 0
+Menor gap: 0
+Maior gap: 0
+Média de gap: 0
+Três maiores gaps: 0, 0, 0
+Três maiores encadeamentos: 1089, 1085, 1084
+----------------------------------------
+
+Conjunto de dados: 10000000
+Tempo total de inserção: 526420,400 ms
+Número total de colisões: 9999000
+Tempo total de busca: 941775,410 ms
+Número total de gaps: 0
+Menor gap: 0
+Maior gap: 0
+Média de gap: 0
+Três maiores gaps: 0, 0, 0
+Três maiores encadeamentos: 10300, 10269, 10266
+----------------------------------------
+
+### Tamanho da tabela: 10000 ###
+
+Conjunto de dados: 100000
+Tempo total de inserção: 91,628 ms
+Número total de colisões: 97344
+Tempo total de busca: 24,009 ms
+Número total de gaps: 69
+Menor gap: 1
+Maior gap: 37
+Média de gap: 2
+Três maiores gaps: 37, 13, 12
+Três maiores encadeamentos: 99, 98, 97
+----------------------------------------
+
+Conjunto de dados: 1000000
+Tempo total de inserção: 10747,275 ms
+Número total de colisões: 997178
+Tempo total de busca: 5761,753 ms
+Número total de gaps: 23
+Menor gap: 1
+Maior gap: 12
+Média de gap: 2
+Três maiores gaps: 12, 5, 4
+Três maiores encadeamentos: 838, 836, 834
+----------------------------------------
+
+Conjunto de dados: 10000000
+Tempo total de inserção: 351488,976 ms
+Número total de colisões: 9997121
+Tempo total de busca: 834591,869 ms
+Número total de gaps: 5
+Menor gap: 1
+Maior gap: 5
+Média de gap: 1
+Três maiores gaps: 5, 1, 1
+Três maiores encadeamentos: 7932, 7923, 7910
+----------------------------------------
+
+### Tamanho da tabela: 100000 ###
+
+Conjunto de dados: 100000
+Tempo total de inserção: 43,952 ms
+Número total de colisões: 97344
+Tempo total de busca: 83,250 ms
+Número total de gaps: 69
+Menor gap: 1
+Maior gap: 37
+Média de gap: 2
+Três maiores gaps: 37, 13, 12
+Três maiores encadeamentos: 99, 98, 97
+----------------------------------------
+
+Conjunto de dados: 1000000
+Tempo total de inserção: 3282,596 ms
+Número total de colisões: 997178
+Tempo total de busca: 1711,344 ms
+Número total de gaps: 23
+Menor gap: 1
+Maior gap: 12
+Média de gap: 2
+Três maiores gaps: 12, 5, 4
+Três maiores encadeamentos: 838, 836, 834
+----------------------------------------
+
+Conjunto de dados: 10000000
+Tempo total de inserção: 844869,576 ms
+Número total de colisões: 9997121
+Tempo total de busca: 2085734,094 ms
+Número total de gaps: 5
+Menor gap: 1
+Maior gap: 5
+Média de gap: 1
+Três maiores gaps: 5, 1, 1
+Três maiores encadeamentos: 7932, 7923, 7910
+----------------------------------------
+

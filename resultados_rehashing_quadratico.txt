@@ -1,0 +1,107 @@
+===== RESULTADOS - Rehashing Quadrático =====
+
+### Tamanho da tabela: 1000 ###
+
+Conjunto de dados: 1
+Tempo total de inserção: 409.000 ms
+Número total de colisões: 99004872
+Tempo total de busca: 382.000 ms
+Elementos inseridos: 1000 de 1000 (taxa de ocupação: 100.00%)
+Menor gap: 1
+Maior gap: 993
+Média de gaps: 329
+----------------------------------------
+
+Conjunto de dados: 2
+Tempo total de inserção: 4129.000 ms
+Número total de colisões: 999004872
+Tempo total de busca: 3845.000 ms
+Elementos inseridos: 1000 de 1000 (taxa de ocupação: 100.00%)
+Menor gap: 1
+Maior gap: 993
+Média de gaps: 329
+----------------------------------------
+
+Conjunto de dados: 3
+Tempo total de inserção: 41316.000 ms
+Número total de colisões: 9999004872
+Tempo total de busca: 39436.000 ms
+Elementos inseridos: 1000 de 1000 (taxa de ocupação: 100.00%)
+Menor gap: 1
+Maior gap: 993
+Média de gaps: 329
+----------------------------------------
+
+### Tamanho da tabela: 10000 ###
+
+Conjunto de dados: 1
+Tempo total de inserção: 3850.000 ms
+Número total de colisões: 900083328
+Tempo total de busca: 3563.000 ms
+Elementos inseridos: 10000 de 10000 (taxa de ocupação: 100.00%)
+Menor gap: 1
+Maior gap: 9921
+Média de gaps: 3376
+----------------------------------------
+
+Conjunto de dados: 2
+Tempo total de inserção: 42642.000 ms
+Número total de colisões: 9900083328
+Tempo total de busca: 39037.000 ms
+Elementos inseridos: 10000 de 10000 (taxa de ocupação: 100.00%)
+Menor gap: 1
+Maior gap: 9921
+Média de gaps: 3376
+----------------------------------------
+
+Conjunto de dados: 3
+Tempo total de inserção: 567896.000 ms
+Número total de colisões: 99900083328
+Tempo total de busca: 519175.000 ms
+Elementos inseridos: 10000 de 10000 (taxa de ocupação: 100.00%)
+Menor gap: 1
+Maior gap: 9921
+Média de gaps: 3376
+----------------------------------------
+
+### Tamanho da tabela: 100000 ###
+
+Conjunto de dados: 1
+Tempo total de inserção: 329.000 ms
+Número total de colisões: 40315133
+Tempo total de busca: 323.000 ms
+Elementos inseridos: 99604 de 100000 (taxa de ocupação: 99.60%)
+Menor gap: 1
+Maior gap: 99512
+Média de gaps: 33270
+----------------------------------------
+
+Conjunto de dados: 2
+Tempo total de inserção: 649280.000 ms
+Número total de colisões: 90000995770
+Tempo total de busca: 587954.000 ms
+Elementos inseridos: 100000 de 100000 (taxa de ocupação: 100.00%)
+Menor gap: 1
+Maior gap: 99512
+Média de gaps: 33272
+----------------------------------------
+
+Conjunto de dados: 3
+Tempo total de inserção: 6418350.000 ms
+Número total de colisões: 900000995770
+Tempo total de busca: 5893270.000 ms
+Elementos inseridos: 100000 de 100000 (taxa de ocupação: 100.00%)
+Menor gap: 1
+Maior gap: 99512
+Média de gaps: 33272
+----------------------------------------
+
+Conjunto de dados: 4
+Tempo total de inserção: 6418350.000 ms
+Número total de colisões: 900000995770
+Tempo total de busca: 5893270.000 ms
+Elementos inseridos: 100000 de 100000 (taxa de ocupação: 100.00%)
+Menor gap: 1
+Maior gap: 99512
+Média de gaps: 0
+----------------------------------------
